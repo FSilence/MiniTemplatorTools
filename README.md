@@ -7,9 +7,6 @@ Minitemplator官网： http://www.source-code.biz/MiniTemplator/
 MTValue 对应 Value 
 MTBlocks 对应 Blocks 
 
-<pre>
-
-<pre>
 ```java
 public class A {
   @MTValue(name = "a')
@@ -27,14 +24,14 @@ public class B {
 
 生成模板
 
-···
+```java
 public static void main(String[] args) {
   //获取MiniTemplator对象
   ...
   //给MinitTemplator对象后追加映射 对象A
    MTAnnotionUtils.appendMT(mt, new A());
 }
-···
+```
 
 
 
