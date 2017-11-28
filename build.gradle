@@ -1,0 +1,11 @@
+subprojects { //配置所有子工程都应用以下配置
+    buildscript {
+        repositories {
+            mavenCentral()
+        }
+    } //build插件的仓库地址
+    repositories { //仓库地址
+        mavenCentral()
+    }
+
+}
